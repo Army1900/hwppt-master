@@ -13,6 +13,18 @@
 
 English | [中文](./README_CN.md)
 
+> **About this fork (hwppt)**: a customized distribution of [PPT Master](https://github.com/hugohe3/ppt-master) (Hugo He, MIT), packaged as the Claude Code plugin `hwppt`. Use `/hwppt` to write or refine decks; it defaults to the **hw-red** palette (white field, gray structure, one solid `#B5121B` focus per page) and the **hw-plan-share** method (question spine, conclusion titles, one diagram per page, overview-first and full-view bookend, honest placeholders, rules tied to their means).
+>
+> ```bash
+> # inside Claude Code
+> /plugin marketplace add Army1900/hwppt-master
+> /plugin install hwppt@hwppt
+> # then install Python 3.10–3.14 dependencies inside the plugin directory
+> pip install -r <plugin-dir>/ppt-master/requirements.txt
+> ```
+>
+> The palette and method live in `skills/ppt-master/templates/brands/hw-red/` and `skills/ppt-master/templates/styles/hw-plan-share/`. The original project documentation follows.
+
 > 💼 **I'm open to new opportunities.** Investment background (CPA · CPV · Consulting Engineer), also building AI tools and open source. Happy to talk about any opportunity: [heyug3@gmail.com](mailto:heyug3@gmail.com) · [hehugo.com](https://www.hehugo.com/).
 
 > 🆕 **I built a construction project economic evaluation site: [cs.hehugo.com](https://cs.hehugo.com/)** (in Chinese) — the wind, solar and storage templates are now open to everyone; just register and use them (a comparable module in one commercial package sells for ¥100,000).

@@ -134,6 +134,22 @@ ends at export. Step numbers stay as written.
 
 ---
 
+## hwppt House Defaults
+
+This distribution (hwppt, invoked as `/hwppt`) ships two house workspaces:
+
+- Brand: `${SKILL_DIR}/templates/brands/hw-red` — white field, gray structure, one solid `#B5121B` focus per page, Microsoft YaHei.
+- Style: `${SKILL_DIR}/templates/styles/hw-plan-share` — question-spine planning method, conclusion titles, one diagram per page, overview + full-view bookend, honest placeholders, rules tied to their means.
+
+When the user names no brand, style, layout, deck, or palette, pass both roots
+as explicit workspace roots under [`routing.md`](workflows/routing.md): Default
+presents them as the recommended Stage-1 candidates; Quick validates and
+installs them directly. Any explicit user choice overrides them. When the user
+asks to review an existing deck's flow or says 先讨论, diagnose against the
+hw-plan-share Review Focus and wait for confirmation before editing.
+
+---
+
 ## Repository Compatibility
 
 - This package is a workflow/skill, not a generic application scaffold. Do not create `.worktrees/`, `tests/`, branch workflows, or generic engineering structure by default.

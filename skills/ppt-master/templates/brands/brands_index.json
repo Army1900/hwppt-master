@@ -35,6 +35,10 @@
     "summary": "Huawei-style enterprise identity — restrained red accent on near-black and gray for ICT solution, product, and partner decks",
     "primary_color": "#CF0A2C"
   },
+  "hw-red": {
+    "summary": "hwppt house identity — one deep-red accent on a white field with gray structure, for Chinese planning, platform, and engineering-process decks",
+    "primary_color": "#B5121B"
+  },
   "ibm": {
     "summary": "IBM-style enterprise identity — Carbon blue on a disciplined gray scale for hybrid cloud, AI, and enterprise consulting decks",
     "primary_color": "#0F62FE"

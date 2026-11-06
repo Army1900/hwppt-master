@@ -1,19 +1,22 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "name": "ppt-master",
-  "description": "Generate natively editable PPTX from PDF / DOCX / URL / Markdown.",
+  "name": "hwppt",
+  "description": "hwppt — 红白图示风格的 PPT 编写与完善（/hwppt）。基于 PPT Master（Hugo He，MIT）：生成原生可编辑 PPTX，默认使用 hw-red 配色与 hw-plan-share 规划分享方法。",
   "author": {
-    "name": "Hugo He",
-    "email": "heyug3@gmail.com",
-    "url": "https://www.hehugo.com/"
+    "name": "Army1900",
+    "url": "https://github.com/Army1900"
   },
-  "homepage": "https://github.com/hugohe3/ppt-master",
-  "repository": "https://github.com/hugohe3/ppt-master",
+  "homepage": "https://github.com/Army1900/hwppt-master",
+  "repository": "https://github.com/Army1900/hwppt-master",
   "license": "MIT",
   "keywords": [
+    "hwppt",
     "pptx",
     "presentation",
     "powerpoint",
+    "planning",
+    "diagram",
+    "chinese",
     "svg",
     "drawingml",
     "ai",
@@ -21,5 +24,6 @@
     "office",
     "document-conversion"
   ],
-  "skills": "./"
+  "skills": "./",
+  "version": "1.0.0"
 }

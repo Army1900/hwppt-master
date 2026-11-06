@@ -39,6 +39,16 @@
       "line-drawing"
     ]
   },
+  "hw-plan-share": {
+    "summary": "Question-spine planning method — conclusion titles, one diagram per page, overview-first and full-view bookend, honest placeholders, every rule tied to its enforcing means.",
+    "keywords": [
+      "planning",
+      "diagram-first",
+      "conclusion-title",
+      "rollout",
+      "engineering-process"
+    ]
+  },
   "incident-postmortem": {
     "summary": "Blameless incident review method that reconstructs a timeline, separates contributing factors from blame, and commits to verifiable actions.",
     "keywords": [

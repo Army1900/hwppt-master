@@ -1,34 +1,33 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "ppt-master",
+  "name": "hwppt",
   "owner": {
-    "name": "Hugo He",
-    "email": "heyug3@gmail.com",
-    "url": "https://github.com/hugohe3"
+    "name": "Army1900",
+    "url": "https://github.com/Army1900"
   },
   "metadata": {
-    "description": "PPT Master skill — AI generates natively editable PPTX from any document",
-    "version": "6.8.0"
+    "description": "hwppt — 红白图示风格 PPT 插件（基于 PPT Master，MIT）",
+    "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "ppt-master",
+      "name": "hwppt",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/hugohe3/ppt-master.git",
+        "url": "https://github.com/Army1900/hwppt-master.git",
         "path": "skills"
       },
-      "description": "Generate natively editable PPTX from PDF / DOCX / URL / Markdown — real DrawingML shapes, text boxes, charts, and animations. Note: run `pip install -r requirements.txt` inside the installed plugin directory for the Python post-processing scripts to work.",
+      "description": "/hwppt 编写和完善红白图示风格的中文 PPT：问题主线、结论式标题、一页一图、占位不编造、规则落到手段。基于 PPT Master（Hugo He，MIT）生成原生可编辑 PPTX。安装后需在插件目录内 pip install -r ppt-master/requirements.txt（Python 3.10–3.14）。",
       "author": {
-        "name": "Hugo He",
-        "email": "heyug3@gmail.com",
-        "url": "https://www.hehugo.com/"
+        "name": "Army1900",
+        "url": "https://github.com/Army1900"
       },
-      "homepage": "https://github.com/hugohe3/ppt-master",
-      "repository": "https://github.com/hugohe3/ppt-master",
+      "homepage": "https://github.com/Army1900/hwppt-master",
+      "repository": "https://github.com/Army1900/hwppt-master",
       "license": "MIT",
       "category": "productivity",
       "keywords": [
+        "hwppt",
         "pptx",
         "presentation",
         "powerpoint",

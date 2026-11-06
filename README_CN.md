@@ -13,6 +13,18 @@
 
 [English](./README.md) | 中文
 
+> **hwppt 分支说明**：本仓库是 [PPT Master](https://github.com/hugohe3/ppt-master)（Hugo He，MIT）的定制版，打包为 Claude Code 插件 `hwppt`，用 `/hwppt` 编写和完善 PPT，默认使用团队的 **hw-red 配色**（白底灰结构、每页一处实心红 `#B5121B`）和 **hw-plan-share 方法**（问题主线、结论式标题、一页一图、概览开场 + 全景收尾、占位不编造、规则落到手段）。
+>
+> ```bash
+> # 在 Claude Code 中
+> /plugin marketplace add Army1900/hwppt-master
+> /plugin install hwppt@hwppt
+> # 安装后在插件目录内准备 Python 3.10–3.14 依赖
+> pip install -r <插件目录>/ppt-master/requirements.txt
+> ```
+>
+> 用法：`/hwppt 做一份 15 页的《xx 规划》分享 PPT` · `/hwppt 完善 ./xx.pptx，先讨论逻辑` · `/hwppt 快速 …`。配色与方法定义在 `skills/ppt-master/templates/brands/hw-red/` 与 `skills/ppt-master/templates/styles/hw-plan-share/`。原项目的完整说明见下文。
+
 > 💼 **我正在寻找新的发展机会。** 投融资背景（CPA · CPV · 咨询工程师），也做 AI 工具与开源产品，各类机会都欢迎交流：[heyug3@gmail.com](mailto:heyug3@gmail.com)，更多见 [hehugo.com](https://www.hehugo.com/)。
 
 > 🆕 **我做了一个建设项目经济评价网站：[cs.hehugo.com](https://cs.hehugo.com/)**——风光储模板现已向所有用户开放，注册即可使用（某商业软件同类模块售价 10 万元）。
